@@ -5,7 +5,10 @@
   padding: 20px 40px;
   background-color: #fff;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-  position: fixed;
+  /*position: fixed;*/ /*Lieber Rudi, hier musste leider dein Code etwas abgeändert werden, 
+  position: fixed hatte hier zum Ergebnis das meine 
+  Accordion Funktion in der Anzeige abgeschnitten wurde. 
+  Du kannst es gern einmal Rückgangi machen, habe den Teil nur auskommentiert. */
   width: 100%;
   top: 0;
   z-index: 1000;
