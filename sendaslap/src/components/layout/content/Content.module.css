@@ -5,10 +5,4 @@
     font-size: larger;
 }
 
-.align-content {
-    display: contents;
-    justify-content: center;
-    align-items: center;
-    height: 200px;
-    background-color: aquamarine;
-}
+
