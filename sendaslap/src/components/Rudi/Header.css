@@ -1,13 +1,13 @@
-.header {
-    background-color: #333;  
-    padding: 15px 20px;
+.header {   
+    background-color: #333;
+    padding: 15px 30px;
     position: fixed;
     width: 100%;
     top: 0;
-    z-index: 1000; 
+    z-index: 1000;
   }
   
-  .nav {
+  .navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -23,7 +23,7 @@
   .nav-links {
     list-style: none;
     display: flex;
-    gap: 15px; 
+    gap: 30px;
   }
   
   .nav-links li {
@@ -38,6 +38,6 @@
   }
   
   .nav-links a:hover {
-    color: #ddd;
+    color: #f0a500;
   }
   
