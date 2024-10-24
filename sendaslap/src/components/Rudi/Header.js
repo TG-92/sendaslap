@@ -1,22 +1,28 @@
 import React from 'react';
-import './Header.css'; 
+import './Header.css';
 
 const Header = () => {
   return (
     <header className="header">
-      <nav className="navbar">
-        <div className="logo">
-          <a href="#home">MyLogo</a>
-        </div>
-        <ul className="nav-links">
-          <li><a href="#home">Home</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#services">Services</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
+      <div className="logo">
+        <h1>SendaSlap</h1>
+      </div>
+      <nav className="nav-links">
+        <a href="#catalog">Katalog</a>
+        <a href="#resources">Bilder von geslappeden Leuten</a>
+        <a href="#community">Community</a>
+        <a href="#pricing">Diese Leute wurden schon geslapped</a>
+        <a href="#business">Fuer Unternehmen</a>
       </nav>
+      <div className="user-actions">
+        <button className="search-icon" aria-label="Search">
+          🔍
+        </button>
+        <a href="#login" className="login-link">Log In</a>
+      </div>
     </header>
   );
 };
 
 export default Header;
+

@@ -1,10 +1,70 @@
-.navbar {
-  background-color: blueviolet;
-  height: 60px;
+.header {
   display: flex;
+  justify-content: space-between;
   align-items: center;
+  padding: 20px 40px;
+  background-color: #fff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
 }
 
-.homebtn {
-  background-color: blue;
+.logo h1 {
+  font-size: 24px;
+  color: #333;
+  font-family: 'Arial', sans-serif;
+}
+
+.navLinks {
+  display: flex;
+  gap: 20px;
+}
+
+.navItem {
+  color: #555;
+  text-decoration: none;
+  font-size: 1rem;
+  padding: 10px 15px;
+  border-radius: 4px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.navItem:hover {
+  background-color: #f0f0f0;
+  color: #000;
+}
+
+.userActions {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.searchIcon {
+  background: none;
+  border: none;
+  font-size: 1.2rem;
+  cursor: pointer;
+  color: #555;
+  transition: color 0.3s;
+}
+
+.searchIcon:hover {
+  color: #000;
+}
+
+.loginLink {
+  font-weight: bold;
+  padding: 10px 15px;
+  border-radius: 4px;
+  background-color: #6200ea;
+  color: white;
+  transition: background-color 0.3s;
+  text-decoration: none;
+}
+
+.loginLink:hover {
+  background-color: #3700b3;
 }
