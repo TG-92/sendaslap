@@ -8,12 +8,16 @@ function Content() {
       <Accordion.Item eventKey="0">
         <Accordion.Header>What The Slap?!</Accordion.Header>
         <Accordion.Body>
+        <p>
           Dont you just sometimes think you're not living up to your true potential? <br />
           Maybe you're just not living up to your dreams. But remember: <br />
           Never stop letting people not help, just give them the tools they need to help them grow. <br />
-          And remember: You're never truly alone. <br />
-          - We are literally just -  <br /> 
-          -one Hand away - <br />
+          And remember: You're never truly alone. 
+        </p>
+        <hr />  
+        <p>
+          - We are literally just one Hand away - 
+        </p>
         </Accordion.Body>
       </Accordion.Item>
       <Accordion.Item eventKey="1">

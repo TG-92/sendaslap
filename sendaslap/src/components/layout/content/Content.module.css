@@ -2,17 +2,13 @@
     display: block;
     position: relative;
     top: 5em;
+    font-size: larger;
 }
 
 .align-content {
-    display: flex;
+    display: contents;
     justify-content: center;
     align-items: center;
     height: 200px;
+    background-color: aquamarine;
 }
-
-.spacedParagraph {
-    margin-top: 10px; /* Wert kann nach Belieben angepasst werden */
-    margin-bottom: 10px; /* Wert kann nach Belieben angepasst werden */
-}
-
