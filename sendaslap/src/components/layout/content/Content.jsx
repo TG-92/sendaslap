@@ -6,21 +6,25 @@ function Content() {
     <div className="accbody">
     <Accordion defaultActiveKey="0">
       <Accordion.Item eventKey="0">
-        <Accordion.Header>Accordion Item #1</Accordion.Header>
+        <Accordion.Header>What The Slap?!</Accordion.Header>
         <Accordion.Body>
-          Placeholder
+          Dont you just sometimes think you're not living up to your true potential?
+          Maybe you're just not living up to your dreams. But remember:
+          Never stop letting people not help, just give them the tools they need to help them grow.
+          And remember: You're never truly alone. We are literally one Hand away. 
         </Accordion.Body>
       </Accordion.Item>
       <Accordion.Item eventKey="1">
-        <Accordion.Header>Accordion Item #2</Accordion.Header>
+        <Accordion.Header>Are you flapping serious?!</Accordion.Header>
         <Accordion.Body>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat. Duis aute irure dolor in
-          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-          culpa qui officia deserunt mollit anim id est laborum.
+          Yes! And we actually have the scientific evidence to support this claim.
+          We've been doing this for over 30 years and we've found that people who receive a slap get totally grounded in different ways.
+          For instance, people who receive a slap tend to be more focused on their career, their dreams, and their goals.
+          Over the Course of 13 centuries we installed the first slapbox in London, England.
+          And over the next 12 centuries we've installed slapboxes in every major city in the world.
+          We've worked with hundreds of celebrities and we've seen the results. 
+          Check out our Website and find your perfect Slap Story!
+
         </Accordion.Body>
       </Accordion.Item>
     </Accordion>
