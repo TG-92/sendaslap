@@ -3,3 +3,16 @@
     position: relative;
     top: 5em;
 }
+
+.align-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
+
+.spacedParagraph {
+    margin-top: 10px; /* Wert kann nach Belieben angepasst werden */
+    margin-bottom: 10px; /* Wert kann nach Belieben angepasst werden */
+}
+
