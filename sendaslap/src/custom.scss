@@ -1,5 +1,7 @@
 // Override default variables before the import
 $body-bg: hsl(0, 0%, 100%);
+$primary: #ff5722;
+$font-size-base: 1.1rem;
 
 // Import Bootstrap and its default variables
 @import '~bootstrap/scss/bootstrap.scss';

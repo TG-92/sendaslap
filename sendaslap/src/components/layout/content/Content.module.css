@@ -1,0 +1,12 @@
+.accbody {
+    display: flex;
+    position: relative;
+    top: 5em;
+    font-size: larger;
+}
+
+
+.text-center {
+    text-align: center;
+    width: 100%;
+}
