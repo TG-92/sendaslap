@@ -1,6 +1,8 @@
 import { Accordion, Button, Breadcrumb } from "react-bootstrap";
 import "../../../styles/custom.scss";
 import "./Content.module.css";
+import { useLayoutEffect } from "react";
+
 
 function Content() {
   return (
@@ -10,9 +12,7 @@ function Content() {
           <Accordion.Header>
             Why would you wanna slap someone?!
           </Accordion.Header>
-          <Button variant="primary">        
-            Bitte Helfen Sie mir ich bin in Gefahr.
-          </Button>
+          <Button variant="primary"></Button>
           <Breadcrumb className="Brotkrümel"></Breadcrumb>
           <Accordion.Body>
             <p>
