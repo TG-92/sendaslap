@@ -1,6 +1,7 @@
 import { Accordion } from "react-bootstrap";
 import "../../../styles/custom.scss";
 import "./Content.module.css";
+import Buttonred from '../../../components/common/buttonred/button';
 
 function Content() {
   return (
@@ -10,6 +11,7 @@ function Content() {
           <Accordion.Header>
             What The Slap?!
           </Accordion.Header>
+          <Buttonred>Bitte funktioniere.</Buttonred>
           <Accordion.Body>
             <p>
               Dont you just sometimes think you're not living up to your true potential? <br />
