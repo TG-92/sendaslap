@@ -1,7 +1,7 @@
 import { Accordion, Button, Breadcrumb } from "react-bootstrap";
 import "../../../styles/custom.scss";
 import "./Content.module.css";
-import { useLayoutEffect } from "react";
+// Versuchte Pfad anzugeben zu HandelButtonClick.jsx hatt Pfad nicht Gefunden. import "./
 
 
 function Content() {
@@ -12,7 +12,9 @@ function Content() {
           <Accordion.Header>
             Why would you wanna slap someone?!
           </Accordion.Header>
-          <Button variant="primary"></Button>
+          <Button variant="primary" onClick={HandelbuttonClick}>        
+            Bitte Helfen Sie mir ich bin in Gefahr.
+          </Button>
           <Breadcrumb className="Brotkrümel"></Breadcrumb>
           <Accordion.Body>
             <p>
