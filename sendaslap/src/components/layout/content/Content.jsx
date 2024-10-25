@@ -7,16 +7,7 @@ function Content() {
     <div className="accbody">
       <Accordion defaultActiveKey="1">
         <Accordion.Item eventKey="0">
-          <Accordion.Header 
-            className="accordion-header" 
-            style={{ 
-              display: 'flex', 
-              justifyContent: 'center', 
-              alignItems: 'center', 
-              width: '100%', 
-              textAlign: 'center' 
-            }}
-          >
+          <Accordion.Header>
             What The Slap?!
           </Accordion.Header>
           <Accordion.Body>
