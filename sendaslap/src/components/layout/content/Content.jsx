@@ -1,7 +1,6 @@
-import { Accordion } from "react-bootstrap";
+import { Accordion, Button, Breadcrumb } from "react-bootstrap";
 import "../../../styles/custom.scss";
 import "./Content.module.css";
-import Buttonred from '../../../components/common/buttonred/button';
 
 function Content() {
   return (
@@ -9,9 +8,12 @@ function Content() {
       <Accordion defaultActiveKey="1">
         <Accordion.Item eventKey="0">
           <Accordion.Header>
-            What The Slap?!
+            Why would you wanna slap someone?!
           </Accordion.Header>
-          <Buttonred>Bitte funktioniere.</Buttonred>
+          <Button variant="primary">        
+            Bitte Helfen Sie mir ich bin in Gefahr.
+          </Button>
+          <Breadcrumb className="Brotkrümel"></Breadcrumb>
           <Accordion.Body>
             <p>
               Dont you just sometimes think you're not living up to your true potential? <br />
