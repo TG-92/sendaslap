@@ -1,6 +1,8 @@
 import { Accordion, Button, Breadcrumb } from "react-bootstrap";
 import "../../../styles/custom.scss";
 import "./Content.module.css";
+// Versuchte Pfad anzugeben zu HandelButtonClick.jsx hatt Pfad nicht Gefunden. import "./
+
 
 function Content() {
   return (
@@ -10,7 +12,7 @@ function Content() {
           <Accordion.Header>
             Why would you wanna slap someone?!
           </Accordion.Header>
-          <Button variant="primary">        
+          <Button variant="primary" onClick={HandelbuttonClick}>        
             Bitte Helfen Sie mir ich bin in Gefahr.
           </Button>
           <Breadcrumb className="Brotkrümel"></Breadcrumb>
