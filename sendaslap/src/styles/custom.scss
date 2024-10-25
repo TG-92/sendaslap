@@ -1,0 +1,42 @@
+
+.accbody {
+  display: block;
+  position: relative;
+  top: 5em;
+  font-size: larger;
+}
+
+.accordion-header {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  text-align: center !important;
+  width: 100% !important;
+  padding: 10px 0 !important;
+  margin: 0 auto !important;
+  background-color: transparent !important;
+  border: none !important;
+}
+
+.accordion-header button {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  width: 100% !important;
+  text-align: center !important;
+  background-color: transparent !important;
+  border: none !important;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+/* Custom Properties (CSS Variables) */
+:root {
+  --accordion-header-padding: 10px;
+  --accordion-header-bg: transparent;
+}
+
+.accordion-header {
+  padding: var(--accordion-header-padding);
+  background-color: var(--accordion-header-bg);
+}
