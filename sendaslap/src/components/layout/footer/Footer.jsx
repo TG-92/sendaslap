@@ -2,7 +2,7 @@ import styles from "./Footer.module.css";
 
 function Footer() {
     return <footer className={styles.footer}>
-        <p>&copy; {new Date().getFullYear()} SENDaSLAP GmbH. All Rights reserved.</p>
+        <p>&copy; {new Date().getFullYear()} Send a Slap AG. All Rights reserved.</p>
         <nav className={styles.footernav}>
             <a href="https://www.bmuv.de/themen/verbraucherschutz/digitaler-verbraucherschutz/impressumspflicht" className={styles.footerLink}>
                 Impressum
